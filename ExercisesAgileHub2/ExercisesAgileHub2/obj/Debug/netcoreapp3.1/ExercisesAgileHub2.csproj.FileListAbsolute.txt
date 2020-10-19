@@ -1,0 +1,13 @@
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\bin\Debug\netcoreapp3.1\ExercisesAgileHub2.exe
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\bin\Debug\netcoreapp3.1\ExercisesAgileHub2.deps.json
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\bin\Debug\netcoreapp3.1\ExercisesAgileHub2.runtimeconfig.json
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\bin\Debug\netcoreapp3.1\ExercisesAgileHub2.runtimeconfig.dev.json
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\bin\Debug\netcoreapp3.1\ExercisesAgileHub2.dll
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\bin\Debug\netcoreapp3.1\ExercisesAgileHub2.pdb
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\obj\Debug\netcoreapp3.1\ExercisesAgileHub2.csprojAssemblyReference.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\obj\Debug\netcoreapp3.1\ExercisesAgileHub2.AssemblyInfoInputs.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\obj\Debug\netcoreapp3.1\ExercisesAgileHub2.AssemblyInfo.cs
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\obj\Debug\netcoreapp3.1\ExercisesAgileHub2.csproj.CoreCompileInputs.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\obj\Debug\netcoreapp3.1\ExercisesAgileHub2.dll
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\obj\Debug\netcoreapp3.1\ExercisesAgileHub2.pdb
+C:\Users\kstuchirenea\Desktop\AgileHub\Teme\ExercisesAgileHub2\ExercisesAgileHub2\ExercisesAgileHub2\obj\Debug\netcoreapp3.1\ExercisesAgileHub2.genruntimeconfig.cache

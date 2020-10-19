@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercisesAgileHub1", "ExercisesAgileHub1\ExercisesAgileHub1.csproj", "{EB8D981A-28EC-447E-A49F-B589C2C47C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8D981A-28EC-447E-A49F-B589C2C47C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8D981A-28EC-447E-A49F-B589C2C47C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8D981A-28EC-447E-A49F-B589C2C47C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8D981A-28EC-447E-A49F-B589C2C47C12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7106D72-3ABB-4A61-9F06-4F2998C5C57E}
+	EndGlobalSection
+EndGlobal

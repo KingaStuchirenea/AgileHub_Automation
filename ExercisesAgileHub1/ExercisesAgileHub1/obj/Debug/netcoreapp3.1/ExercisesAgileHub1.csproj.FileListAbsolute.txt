@@ -1,0 +1,13 @@
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\obj\Debug\netcoreapp3.1\ExercisesAgileHub1.csprojAssemblyReference.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\obj\Debug\netcoreapp3.1\ExercisesAgileHub1.AssemblyInfoInputs.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\obj\Debug\netcoreapp3.1\ExercisesAgileHub1.AssemblyInfo.cs
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\obj\Debug\netcoreapp3.1\ExercisesAgileHub1.csproj.CoreCompileInputs.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\bin\Debug\netcoreapp3.1\ExercisesAgileHub1.exe
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\bin\Debug\netcoreapp3.1\ExercisesAgileHub1.deps.json
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\bin\Debug\netcoreapp3.1\ExercisesAgileHub1.runtimeconfig.json
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\bin\Debug\netcoreapp3.1\ExercisesAgileHub1.runtimeconfig.dev.json
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\bin\Debug\netcoreapp3.1\ExercisesAgileHub1.dll
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\bin\Debug\netcoreapp3.1\ExercisesAgileHub1.pdb
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\obj\Debug\netcoreapp3.1\ExercisesAgileHub1.dll
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\obj\Debug\netcoreapp3.1\ExercisesAgileHub1.pdb
+C:\Users\kstuchirenea\Desktop\AgileHub\ExercisesAgileHub1\ExercisesAgileHub1\obj\Debug\netcoreapp3.1\ExercisesAgileHub1.genruntimeconfig.cache
