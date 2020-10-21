@@ -24,6 +24,7 @@ namespace SeleniumTestProject
         public void MySecondTest()
         {
             Thread.Sleep(1000);
+
         }
 
         [Test]
