@@ -16,6 +16,7 @@ namespace SeleniumTestProject
         public void Setup()
         {
             Driver = new ChromeDriver();
+            //Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
             Driver.Manage().Window.Maximize();
             Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
         }

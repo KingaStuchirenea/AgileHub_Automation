@@ -14,7 +14,11 @@ namespace SeleniumTestProject.PageObjects
         {
             _driver = driver;
         }
-        public IWebElement AutentificationButton => _driver.FindElement(By.XPath("//a[text()='Autentificare']"));
-        public IWebElement InscriereButton => _driver.FindElement(By.XPath("//a[text()='Înscriere']"));
+        private IWebElement AutentificationButton => _driver.FindElement(By.XPath("//a[text()='Autentificare']"));
+        public IWebElement DeconectareButton => _driver.FindElement(By.XPath("//a[text()='Deconectare']"));
+        private IWebElement InscriereButton => _driver.FindElement(By.XPath("//a[text()='Înscriere']"));
+        private IWebElement VeziDetaliiButton => _driver.FindElement(By.CssSelector(".btn-primary"));
+
+
     }
 }
