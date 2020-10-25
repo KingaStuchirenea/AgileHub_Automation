@@ -30,8 +30,17 @@ namespace SeleniumTestProject
         }
 
         [Test]
-        public void MySecondTest()
+        public void SignUp()
         {
+            // Arrange
+            HomePage homePage = new HomePage(Driver);
+            homePage.GoToSignUp();
+            Thread.Sleep(1000);
+            // Act
+           
+            Thread.Sleep(1000);
+            // Assert
+            
             Thread.Sleep(1000);
 
         }

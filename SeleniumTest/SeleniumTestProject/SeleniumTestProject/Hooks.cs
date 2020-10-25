@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using SeleniumTestProject.PageObjects;
 
 namespace SeleniumTestProject
 {
@@ -18,7 +19,6 @@ namespace SeleniumTestProject
             Driver = new ChromeDriver();
             //Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(3);
             Driver.Manage().Window.Maximize();
-            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
         }
 
         [TearDown]

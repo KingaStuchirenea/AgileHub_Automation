@@ -13,12 +13,14 @@ namespace SeleniumTestProject.PageObjects
         public HomePage(IWebDriver driver)
         {
             _driver = driver;
+            _driver.Navigate().GoToUrl("http://demosite.casqad.org/");
         }
         private IWebElement AutentificationButton => _driver.FindElement(By.XPath("//a[text()='Autentificare']"));
         public IWebElement DeconectareButton => _driver.FindElement(By.XPath("//a[text()='Deconectare']"));
         private IWebElement InscriereButton => _driver.FindElement(By.XPath("//a[text()='Înscriere']"));
         private IWebElement VeziDetaliiButton => _driver.FindElement(By.CssSelector(".btn-primary"));
 
+        
 
     }
 }

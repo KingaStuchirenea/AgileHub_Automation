@@ -50,3 +50,4 @@ C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\SeleniumTes
 C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\SeleniumTest\SeleniumTestProject\SeleniumTestProject\obj\Debug\SeleniumTestProject.csproj.CopyComplete
 C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\SeleniumTest\SeleniumTestProject\SeleniumTestProject\obj\Debug\SeleniumTestProject.dll
 C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\SeleniumTest\SeleniumTestProject\SeleniumTestProject\obj\Debug\SeleniumTestProject.pdb
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\SeleniumTest\SeleniumTestProject\SeleniumTestProject\bin\Debug\SeleniumExtras.WaitHelpers.dll
