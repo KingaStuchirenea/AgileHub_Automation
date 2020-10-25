@@ -65,15 +65,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Hooks.cs" />
+    <Compile Include="PageObjects\DemoQa.Actions.cs" />
+    <Compile Include="PageObjects\DemoQa.Locators.cs" />
     <Compile Include="PageObjects\HomePage.Actions.cs" />
     <Compile Include="PageObjects\HomePage.Locators.cs" />
     <Compile Include="PageObjects\HomePageGoogle.Actions.cs" />
     <Compile Include="PageObjects\HomePageGoogle.Locators.cs" />
     <Compile Include="PageObjects\LoginPage.Actions.cs" />
     <Compile Include="PageObjects\LoginPage.Locators.cs" />
+    <Compile Include="PageObjects\TeatrulSicaAlexandrescu.Actions.cs" />
+    <Compile Include="PageObjects\TeatrulSicaAlexandrescu.Locators.cs" />
+    <Compile Include="PageObjects\Untold.Actions.cs" />
+    <Compile Include="PageObjects\Untold.Locators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests.cs" />
+    <Compile Include="TestsDemoQa.cs" />
     <Compile Include="TestsGooglePage.cs" />
+    <Compile Include="TestsTeatrulSicaAlexandrescu.cs" />
+    <Compile Include="TestsUntold.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

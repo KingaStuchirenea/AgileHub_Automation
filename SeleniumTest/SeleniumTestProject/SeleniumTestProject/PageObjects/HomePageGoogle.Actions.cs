@@ -15,12 +15,12 @@ namespace SeleniumTestProject.PageObjects
         public HomePageGoogle(IWebDriver driver)
         {
             _driver = driver;
-
             _driver.Navigate().GoToUrl("https://www.google.com/");
             _driverWait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
             _driverWait.IgnoreExceptionTypes(typeof(NoSuchElementException));
 
         }
+
         public void SearchInGoogle(string textToBeSearched)
         {
             _driver.SwitchTo().Frame(0);
