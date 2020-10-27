@@ -73,6 +73,10 @@
     <Compile Include="PageObjects\HomePageGoogle.Locators.cs" />
     <Compile Include="PageObjects\LoginPage.Actions.cs" />
     <Compile Include="PageObjects\LoginPage.Locators.cs" />
+    <Compile Include="PageObjects\ProductPage.Actions.cs" />
+    <Compile Include="PageObjects\ProductPage.Locators.cs" />
+    <Compile Include="PageObjects\SignUpPage.Actions.cs" />
+    <Compile Include="PageObjects\SignUpPage.Locators.cs" />
     <Compile Include="PageObjects\TeatrulSicaAlexandrescu.Actions.cs" />
     <Compile Include="PageObjects\TeatrulSicaAlexandrescu.Locators.cs" />
     <Compile Include="PageObjects\Untold.Actions.cs" />

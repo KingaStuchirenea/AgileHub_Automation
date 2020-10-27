@@ -29,26 +29,68 @@ namespace SeleniumTestProject
             Thread.Sleep(1000);
         }
 
+        //[Test]
+        //public void SignUp()
+        //{
+        //    // Arrange
+        //    HomePage homePage = new HomePage(Driver);
+        //    homePage.GoToSignUp();
+        //    Thread.Sleep(1000);
+        //    // Act
+        //    Thread.Sleep(1000);
+        //    // Assert
+        //    Thread.Sleep(1000);
+        //}
+
         [Test]
-        public void SignUp()
+        public void LoginUser()
         {
-            // Arrange
+            HomePage homePage = new HomePage(Driver);
+            homePage.GoToAuthentication();
+            Thread.Sleep(1000);
+            LoginPage loginPage = new LoginPage(Driver);
+            loginPage.AuthenticateUser("john.miller@xyz.com", "!123John");
+            Thread.Sleep(1000);
+        }
+
+        [Test]
+        public void AddProductInCartAsUser()
+        {
+            HomePage homePage = new HomePage(Driver);
+            homePage.GoToAuthentication();
+            Thread.Sleep(1000);
+            LoginPage loginPage = new LoginPage(Driver);
+            loginPage.AuthenticateUser("john.miller@xyz.com", "!123John");
+            Thread.Sleep(1000);
+            ProductPage productPage = new ProductPage(Driver);
+            productPage.AddProductInCart();
+        }
+
+        [Test]
+        public void AddProductInCartAsAdmin()
+        {
+            HomePage homePage = new HomePage(Driver);
+            homePage.GoToAuthentication();
+            Thread.Sleep(1000);
+            LoginPage loginPage = new LoginPage(Driver);
+            loginPage.AuthenticateUser("admin.test3@gmail.com", "password123");
+            Thread.Sleep(1000);
+            ProductPage productPage = new ProductPage(Driver);
+            productPage.AddProductInCart();
+        }
+
+        [Test]
+        public void SignUpAndLogin()
+        {
             HomePage homePage = new HomePage(Driver);
             homePage.GoToSignUp();
             Thread.Sleep(1000);
-            // Act
-           
-            Thread.Sleep(1000);
-            // Assert
-            
-            Thread.Sleep(1000);
-
+            SignUpPage signUpPage = new SignUpPage(Driver);
+            signUpPage.PopulateSignUpPage();
+            signUpPage.LoginNewUser();
         }
 
-        [Test]
-        public void MyThirdTest()
-        {
-            Thread.Sleep(1000);
-        }
+
+
     }
 }
