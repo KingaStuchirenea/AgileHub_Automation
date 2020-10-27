@@ -19,8 +19,15 @@ namespace SeleniumTestProject.PageObjects
         public IWebElement DeconectareButton => _driver.FindElement(By.XPath("//a[text()='Deconectare']"));
         private IWebElement InscriereButton => _driver.FindElement(By.XPath("//a[text()='Înscriere']"));
         private IWebElement VeziDetaliiButton => _driver.FindElement(By.CssSelector(".btn-primary"));
+        private IWebElement Laptopuri => _driver.FindElement(By.XPath("//*[@id='collapsibleNavbar']/ul[1]/li[1]"));
+        private IWebElement Telefoane => _driver.FindElement(By.XPath("//*[@id='collapsibleNavbar']/ul[1]/li[2]"));
+        private IWebElement Foto => _driver.FindElement(By.XPath("//*[@id='collapsibleNavbar']/ul[1]/li[3]"));
+        private IWebElement Carti => _driver.FindElement(By.XPath("//*[@id='collapsibleNavbar']/ul[1]/li[4]"));
+        private IWebElement Accesorii => _driver.FindElement(By.XPath("//*[@id='collapsibleNavbar']/ul[1]/li[5]"));
+        private IWebElement AdministrareButton => _driver.FindElement(By.XPath("//a[text()='Administrare']"));
+        private IWebElement UtilizatoriMenu => _driver.FindElement(By.XPath("//a[text()='Utilizatori']"));
 
-        
+
 
     }
 }

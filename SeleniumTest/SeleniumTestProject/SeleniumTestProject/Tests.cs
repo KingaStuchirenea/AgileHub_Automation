@@ -90,7 +90,56 @@ namespace SeleniumTestProject
             signUpPage.LoginNewUser();
         }
 
+        [Test]
+        public void LogInLogOut()
+        {
+            HomePage homePage = new HomePage(Driver);
+            homePage.GoToAuthentication();
+            Thread.Sleep(1000);
+            LoginPage loginPage = new LoginPage(Driver);
+            loginPage.AuthenticateUser("john.miller@xyz.com", "!123John");
+            Thread.Sleep(1000);
+            homePage.SignOut();
+        }
 
+        [Test]
+        public void GoTroughtOrizontalMenus()
+        {
+            HomePage homePage = new HomePage(Driver);
+            homePage.LaptopuriMenu();
+            homePage.TelefoaneMenu();
+            homePage.FotoMenu();
+            homePage.CartiMenu();
+            homePage.AccesoriiMenu();
+        }
+
+        [Test]
+        public void AsAdminOpenAdministrare()
+        {
+            HomePage homePage = new HomePage(Driver);
+            homePage.GoToAuthentication();
+            Thread.Sleep(1000);
+            LoginPage loginPage = new LoginPage(Driver);
+            loginPage.AuthenticateUser("admin.test3@gmail.com", "password123");
+            Thread.Sleep(1000);
+            homePage.GoToAdministrare();
+        }
+
+        [Test]
+        public void AsAdminOpenUtilizatori()
+        {
+            HomePage homePage = new HomePage(Driver);
+            AsAdminOpenAdministrare();
+            Thread.Sleep(1000);
+            homePage.GoToUtilizatori();
+        }
+
+        [Test]
+        public void AsAdminEditUser()
+        {
+            AsAdminOpenUtilizatori();
+
+        }
 
     }
 }

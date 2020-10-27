@@ -14,10 +14,41 @@ namespace SeleniumTestProject.PageObjects
         {
             AutentificationButton.Click();
         }
-
         public void GoToSignUp()
         {
             InscriereButton.Click();
+        }
+        public void SignOut()
+        {
+            DeconectareButton.Click();
+        }
+        public void LaptopuriMenu()
+        {
+            Laptopuri.Click();
+        }
+        public void TelefoaneMenu()
+        {
+            Telefoane.Click();
+        }
+        public void FotoMenu()
+        {
+            Foto.Click();
+        }
+        public void CartiMenu()
+        {
+            Carti.Click();
+        }
+        public void AccesoriiMenu()
+        {
+            Accesorii.Click();
+        }
+        public void GoToAdministrare()
+        {
+            AdministrareButton.Click();
+        }
+        public void GoToUtilizatori()
+        {
+            UtilizatoriMenu.Click();
         }
 
     }
