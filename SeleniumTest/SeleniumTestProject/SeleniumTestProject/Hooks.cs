@@ -21,11 +21,11 @@ namespace SeleniumTestProject
             Driver.Manage().Window.Maximize();
         }
 
-        //[TearDown]
-        //public void TearDown()
-        //{
-        //    Driver.Quit();
-        //}
+        [TearDown]
+        public void TearDown()
+        {
+            Driver.Quit();
+        }
 
     }
 }
