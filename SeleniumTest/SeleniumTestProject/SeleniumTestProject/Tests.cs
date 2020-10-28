@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using SeleniumTestProject.PageObjects;
 using System;
 using System.Collections.Generic;
@@ -138,7 +139,13 @@ namespace SeleniumTestProject
         public void AsAdminEditUser()
         {
             AsAdminOpenUtilizatori();
-
+            //scrolls down page 8000px
+            IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;
+            js.ExecuteScript("window.scrollBy(0,8000)", "");
+            Thread.Sleep(2000);
+            UserPage userPage = new UserPage(Driver);
+            userPage.GoToEditAUserPage();
+            userPage.SelectARoleForTheUser("user");
         }
 
     }
