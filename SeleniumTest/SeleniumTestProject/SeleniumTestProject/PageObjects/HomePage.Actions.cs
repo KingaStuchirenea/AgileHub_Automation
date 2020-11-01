@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenQA.Selenium;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -49,6 +51,11 @@ namespace SeleniumTestProject.PageObjects
         public void GoToUtilizatori()
         {
             UtilizatoriMenu.Click();
+        }
+
+        public void VerifyElementIsDisplayed(IWebElement elementToVerify)
+        {
+            Assert.IsTrue(elementToVerify.Displayed);
         }
 
     }

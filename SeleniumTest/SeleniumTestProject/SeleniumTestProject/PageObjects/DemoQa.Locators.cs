@@ -31,5 +31,9 @@ namespace SeleniumTestProject.PageObjects
         private IWebElement UserName => _driver.FindElement(By.Id("userName"));
         private IWebElement PermanentAddress => _driver.FindElement(By.Id("permanentAddress"));
 
+        public IWebElement ThanksForSubmittingThePAge => _driver.FindElement(By.XPath("//*[@id='example-modal-sizes-title-lg']"));
+        public IWebElement NameDetailsDisplayed => _driver.FindElement(By.XPath("//*[@id='name']"));
+
+
     }
 }

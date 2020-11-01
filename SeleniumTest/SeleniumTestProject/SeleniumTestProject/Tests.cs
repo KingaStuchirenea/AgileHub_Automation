@@ -52,6 +52,8 @@ namespace SeleniumTestProject
             LoginPage loginPage = new LoginPage(Driver);
             loginPage.AuthenticateUser("john.miller@xyz.com", "!123John");
             Thread.Sleep(1000);
+            loginPage.VerifyElementIsDisplayed(homePage.DeconectareButton);
+            Thread.Sleep(1000);
         }
 
         [Test]
@@ -65,6 +67,7 @@ namespace SeleniumTestProject
             Thread.Sleep(1000);
             ProductPage productPage = new ProductPage(Driver);
             productPage.AddProductInCart();
+            loginPage.VerifyElementIsDisplayed(homePage.ComandaAcumButton);
         }
 
         [Test]
@@ -78,6 +81,7 @@ namespace SeleniumTestProject
             Thread.Sleep(1000);
             ProductPage productPage = new ProductPage(Driver);
             productPage.AddProductInCart();
+            loginPage.VerifyElementIsDisplayed(homePage.ComandaAcumButton);
         }
 
         [Test]
@@ -89,6 +93,9 @@ namespace SeleniumTestProject
             SignUpPage signUpPage = new SignUpPage(Driver);
             signUpPage.PopulateSignUpPage();
             signUpPage.LoginNewUser();
+            LoginPage loginPage = new LoginPage(Driver);
+            loginPage.VerifyElementIsDisplayed(homePage.DeconectareButton);
+            Thread.Sleep(1000);
         }
 
         [Test]
@@ -101,6 +108,8 @@ namespace SeleniumTestProject
             loginPage.AuthenticateUser("john.miller@xyz.com", "!123John");
             Thread.Sleep(1000);
             homePage.SignOut();
+            loginPage.VerifyElementIsDisplayed(homePage.AutentificationButton);
+            Thread.Sleep(1000);
         }
 
         [Test]
@@ -112,6 +121,7 @@ namespace SeleniumTestProject
             homePage.FotoMenu();
             homePage.CartiMenu();
             homePage.AccesoriiMenu();
+            //Assert???
         }
 
         [Test]
@@ -124,6 +134,7 @@ namespace SeleniumTestProject
             loginPage.AuthenticateUser("admin.test3@gmail.com", "password123");
             Thread.Sleep(1000);
             homePage.GoToAdministrare();
+            homePage.VerifyElementIsDisplayed(homePage.UtilizatoriMenu);
         }
 
         [Test]
@@ -133,6 +144,8 @@ namespace SeleniumTestProject
             AsAdminOpenAdministrare();
             Thread.Sleep(1000);
             homePage.GoToUtilizatori();
+            UserPage userPage = new UserPage(Driver);
+            Assert.IsTrue(userPage.NumeHeader.Displayed);
         }
 
         [Test]
@@ -146,6 +159,7 @@ namespace SeleniumTestProject
             UserPage userPage = new UserPage(Driver);
             userPage.GoToEditAUserPage();
             userPage.SelectARoleForTheUser("user");
+            Assert.IsTrue(userPage.UserRole.Displayed);
         }
 
     }

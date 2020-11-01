@@ -15,7 +15,7 @@ namespace SeleniumTestProject.PageObjects
             _driver = driver;
             _driver.Navigate().GoToUrl("http://demosite.casqad.org/");
         }
-        private IWebElement AutentificationButton => _driver.FindElement(By.XPath("//a[text()='Autentificare']"));
+        public IWebElement AutentificationButton => _driver.FindElement(By.XPath("//a[text()='Autentificare']"));
         public IWebElement DeconectareButton => _driver.FindElement(By.XPath("//a[text()='Deconectare']"));
         private IWebElement InscriereButton => _driver.FindElement(By.XPath("//a[text()='Înscriere']"));
         private IWebElement VeziDetaliiButton => _driver.FindElement(By.CssSelector(".btn-primary"));
@@ -25,8 +25,8 @@ namespace SeleniumTestProject.PageObjects
         private IWebElement Carti => _driver.FindElement(By.XPath("//*[@id='collapsibleNavbar']/ul[1]/li[4]"));
         private IWebElement Accesorii => _driver.FindElement(By.XPath("//*[@id='collapsibleNavbar']/ul[1]/li[5]"));
         private IWebElement AdministrareButton => _driver.FindElement(By.XPath("//a[text()='Administrare']"));
-        private IWebElement UtilizatoriMenu => _driver.FindElement(By.XPath("//a[text()='Utilizatori']"));
-
+        public IWebElement UtilizatoriMenu => _driver.FindElement(By.XPath("//a[text()='Utilizatori']"));
+        public IWebElement ComandaAcumButton => _driver.FindElement(By.XPath("/html/body/div/div[1]/div[2]/table/tbody/tr[2]/th[4]/a"));
 
 
     }
