@@ -13,6 +13,8 @@ namespace SeleniumTestProject.PageObjects
         private IWebElement searchButton => _driver.FindElement(By.CssSelector("input[value='Google Search' and div:nth-child(2)]"));
         private IWebElement suntDeAcordButton => _driver.FindElement(By.CssSelector("div[id='introAgreeButton']"));
         private IWebElement imaginiButton => _driver.FindElement(By.CssSelector("div#hdtb-msb-vis>div:nth-of-type(2)>a"));
-        private IWebElement firstPic => _driver.FindElement(By.XPath("//img[@alt='Paris - Wikipedia']"));
+        public IWebElement firstPic => _driver.FindElement(By.XPath("//img[@alt='Paris - Wikipedia']"));
+        //public IWebElement imagesButton => _driver.FindElement(By.XPath("//*[@id='yDmH0d']/div[2]/c-wiz/div[1]/div/div[1]/div[1]/div/div/span"));
+        
     }
 }

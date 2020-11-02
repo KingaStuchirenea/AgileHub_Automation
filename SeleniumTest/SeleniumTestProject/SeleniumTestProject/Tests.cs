@@ -121,7 +121,8 @@ namespace SeleniumTestProject
             homePage.FotoMenu();
             homePage.CartiMenu();
             homePage.AccesoriiMenu();
-            //Assert???
+            var accesoriiURL = "http://demosite.casqad.org/category/show/5";
+            Assert.AreEqual(accesoriiURL, "http://demosite.casqad.org/category/show/5");
         }
 
         [Test]

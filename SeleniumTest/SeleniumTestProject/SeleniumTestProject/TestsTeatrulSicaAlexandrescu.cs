@@ -17,6 +17,8 @@ namespace SeleniumTestProject
             TeatrulSicaAlexandrescu teatrulSicaAlexandrescu = new TeatrulSicaAlexandrescu(Driver);
             teatrulSicaAlexandrescu.SelectTeamMember();
             teatrulSicaAlexandrescu.SelectShow();
+            var showURL = "http://www.teatrulsicaalexandrescu.ro/prins-in-plasa/";
+            Assert.AreEqual(showURL, "http://www.teatrulsicaalexandrescu.ro/prins-in-plasa/");
         }
     }
 }

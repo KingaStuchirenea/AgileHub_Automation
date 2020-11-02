@@ -16,6 +16,8 @@ namespace SeleniumTestProject
         {
             Untold untold = new Untold(Driver);
             untold.GoToHome();
+            var homeURL = "https://untold.com/";
+            Assert.AreEqual(homeURL, "https://untold.com/");
         }
     }
 }

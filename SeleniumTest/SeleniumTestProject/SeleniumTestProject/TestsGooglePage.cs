@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using SeleniumTestProject.PageObjects;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,7 @@ namespace SeleniumTestProject
             HomePageGoogle homePageGoogle = new HomePageGoogle(Driver);
             homePageGoogle.SearchInGoogle("paris");
             homePageGoogle.SearchImagesFirstPicture();
+            Assert.IsTrue(homePageGoogle.firstPic.Displayed);
         }
         
     }
