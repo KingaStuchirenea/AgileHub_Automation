@@ -14,6 +14,7 @@ namespace SeleniumTestProject
         [Test]
         public void NavigateToHome()
         {
+            Driver.Navigate().GoToUrl("https://untold.com/");
             Untold untold = new Untold(Driver);
             untold.GoToHome();
             var homeURL = "https://untold.com/";

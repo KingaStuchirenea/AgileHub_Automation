@@ -8,17 +8,15 @@ using System.Threading.Tasks;
 
 namespace SeleniumTestProject.PageObjects
 {
-    partial class HomePageGoogle
+    partial class HomePageGoogleDriver
     {
         private IWebDriver _driver;
         private WebDriverWait _driverWait;
-        public HomePageGoogle(IWebDriver driver)
+        public HomePageGoogleDriver(IWebDriver driver)
         {
             _driver = driver;
-            _driver.Navigate().GoToUrl("https://www.google.com/");
             _driverWait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
             _driverWait.IgnoreExceptionTypes(typeof(NoSuchElementException));
-
         }
 
         public void SearchInGoogle(string textToBeSearched)

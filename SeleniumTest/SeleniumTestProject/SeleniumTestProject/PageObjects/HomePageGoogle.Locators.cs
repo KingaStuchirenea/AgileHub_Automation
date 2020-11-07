@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SeleniumTestProject.PageObjects
 {
-    partial class HomePageGoogle
+    partial class HomePageGoogleDriver
     {
         private IWebElement googleTextBoxField => _driver.FindElement(By.CssSelector("input[name='q']"));
         private IWebElement searchButton => _driver.FindElement(By.CssSelector("input[value='Google Search' and div:nth-child(2)]"));

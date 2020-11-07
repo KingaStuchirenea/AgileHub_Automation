@@ -19,7 +19,7 @@ namespace SeleniumTestProject.PageObjects
             _driver = driver;
             _driverWait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
             _driverWait.IgnoreExceptionTypes(typeof(NoSuchElementException));
-            _driver.Navigate().GoToUrl("https://www.teatrulsicaalexandrescu.ro/?lang=en");
+            //_driver.Navigate().GoToUrl("https://www.teatrulsicaalexandrescu.ro/?lang=en");
         }
 
         public void SelectTeamMember()

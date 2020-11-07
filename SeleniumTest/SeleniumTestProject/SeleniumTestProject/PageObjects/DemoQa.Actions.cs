@@ -13,12 +13,13 @@ namespace SeleniumTestProject.PageObjects
     {
         private IWebDriver _driver;
         private WebDriverWait _driverWait;
-        public DemoQa(IWebDriver driver, string url)
+
+        public DemoQa(IWebDriver driver/*, string url*/)
         {
             _driver = driver;
             _driverWait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
             _driverWait.IgnoreExceptionTypes(typeof(NoSuchElementException));
-            _driver.Navigate().GoToUrl(url);
+            // _driver.Navigate().GoToUrl(url);
         }
 
         public void PopulatePageAndSubmit()

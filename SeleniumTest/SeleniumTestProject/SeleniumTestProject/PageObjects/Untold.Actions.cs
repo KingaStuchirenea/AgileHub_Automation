@@ -18,7 +18,7 @@ namespace SeleniumTestProject.PageObjects
             _driver = driver;
             _driverWait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
             _driverWait.IgnoreExceptionTypes(typeof(NoSuchElementException));
-            _driver.Navigate().GoToUrl("https://untold.com/");
+            //_driver.Navigate().GoToUrl("https://untold.com/");
         }
 
         public void GoToHome()

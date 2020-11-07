@@ -14,6 +14,7 @@ namespace SeleniumTestProject
         [Test]
         public void FirstMemberFirstShow()
         {
+            Driver.Navigate().GoToUrl("https://www.teatrulsicaalexandrescu.ro/?lang=en");
             TeatrulSicaAlexandrescu teatrulSicaAlexandrescu = new TeatrulSicaAlexandrescu(Driver);
             teatrulSicaAlexandrescu.SelectTeamMember();
             teatrulSicaAlexandrescu.SelectShow();

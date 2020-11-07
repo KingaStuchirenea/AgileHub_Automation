@@ -16,7 +16,8 @@ namespace SeleniumTestProject
         [Test]
         public void GoogleSearchPic()
         {
-            HomePageGoogle homePageGoogle = new HomePageGoogle(Driver);
+            Driver.Navigate().GoToUrl("https://www.google.com/");
+            HomePageGoogleDriver homePageGoogle = new HomePageGoogleDriver(Driver);
             homePageGoogle.SearchInGoogle("paris");
             homePageGoogle.SearchImagesFirstPicture();
             Assert.IsTrue(homePageGoogle.firstPic.Displayed);

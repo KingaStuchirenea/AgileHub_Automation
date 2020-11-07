@@ -27,6 +27,12 @@ namespace SeleniumTestProject.PageObjects
             PasswordFieldTextBox.SendKeys(password);
             SubmitButton.Click();
         }
+        public void LoginIntoApplication(User user)
+        {
+            EmailFieldTextBox.SendKeys(user.userEmail);
+            PasswordFieldTextBox.SendKeys(user.userPassword);
+            SubmitButton.Click();
+        }
 
         public void VerifyElementIsDisplayed(IWebElement elementToVerify)
         {

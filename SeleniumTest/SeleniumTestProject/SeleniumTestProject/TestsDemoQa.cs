@@ -15,7 +15,8 @@ namespace SeleniumTestProject
         [Test]
         public void AutomationPracticeFormSubmit()
         {
-            DemoQa demoQa = new DemoQa(Driver, "https://demoqa.com/automation-practice-form");
+            Driver.Navigate().GoToUrl("https://demoqa.com/automation-practice-form");
+            DemoQa demoQa = new DemoQa(Driver);
             demoQa.PopulatePageAndSubmit();
             Assert.IsTrue(demoQa.ThanksForSubmittingThePAge.Displayed);
         }
@@ -23,7 +24,8 @@ namespace SeleniumTestProject
         [Test]
         public void TextBoxSubmit()
         {
-            DemoQa demoQa = new DemoQa(Driver, "https://demoqa.com/text-box");
+            Driver.Navigate().GoToUrl("https://demoqa.com/text-box");
+            DemoQa demoQa = new DemoQa(Driver);
             demoQa.PopulateAndSubmit();
             Thread.Sleep(1000);
             Assert.IsTrue(demoQa.NameDetailsDisplayed.Displayed);
