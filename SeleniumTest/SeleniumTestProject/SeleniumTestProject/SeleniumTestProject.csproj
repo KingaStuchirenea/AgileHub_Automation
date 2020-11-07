@@ -152,6 +152,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StepDefinitions\AuthenticationStepDefinition.cs" />
     <Compile Include="StepDefinitions\DemoQaStepDefinition.cs" />
+    <Compile Include="StepDefinitions\DemositeStepDefinition.cs" />
     <Compile Include="StepDefinitions\GooglePageStepDefinition.cs" />
     <Compile Include="StepDefinitions\TeatrulSicaAlexandrescuStepDefinition.cs" />
     <Compile Include="StepDefinitions\UntoldStepDefinition.cs" />
@@ -165,6 +166,7 @@
   <ItemGroup>
     <None Include="Features\AuthenticationTestsFeature.feature" />
     <None Include="Features\DemoQaFeatureFile.feature" />
+    <None Include="Features\DemositeFeatureFile.feature" />
     <None Include="Features\GooglePageFeatureFile.feature" />
     <None Include="Features\TeatrulSicaAlexandrescuFeatureFile.feature" />
     <None Include="Features\UntoldFeatureFile.feature" />

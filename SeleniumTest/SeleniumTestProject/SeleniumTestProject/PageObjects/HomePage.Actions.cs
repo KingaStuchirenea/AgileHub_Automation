@@ -10,8 +10,6 @@ namespace SeleniumTestProject.PageObjects
 {
     partial class HomePage
     {
-       
-        
         public void GoToAuthentication()
         {
             AutentificationButton.Click();

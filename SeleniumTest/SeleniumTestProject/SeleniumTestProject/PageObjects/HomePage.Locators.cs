@@ -13,7 +13,7 @@ namespace SeleniumTestProject.PageObjects
         public HomePage(IWebDriver driver)
         {
             _driver = driver;
-            _driver.Navigate().GoToUrl("http://demosite.casqad.org/");
+            //_driver.Navigate().GoToUrl("http://demosite.casqad.org/");
         }
         public IWebElement AutentificationButton => _driver.FindElement(By.XPath("//a[text()='Autentificare']"));
         public IWebElement DeconectareButton => _driver.FindElement(By.XPath("//a[text()='Deconectare']"));
@@ -27,7 +27,6 @@ namespace SeleniumTestProject.PageObjects
         private IWebElement AdministrareButton => _driver.FindElement(By.XPath("//a[text()='Administrare']"));
         public IWebElement UtilizatoriMenu => _driver.FindElement(By.XPath("//a[text()='Utilizatori']"));
         public IWebElement ComandaAcumButton => _driver.FindElement(By.XPath("/html/body/div/div[1]/div[2]/table/tbody/tr[2]/th[4]/a"));
-
 
     }
 }

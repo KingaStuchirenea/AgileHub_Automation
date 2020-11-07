@@ -18,6 +18,7 @@ namespace SeleniumTestProject
         public void ValidareLoginIntoApplicationWithValidCredentials()
         {
             // Arrange
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.GoToAuthentication();
             Thread.Sleep(1000);
@@ -46,6 +47,7 @@ namespace SeleniumTestProject
         [Test]
         public void LoginUser()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.GoToAuthentication();
             Thread.Sleep(1000);
@@ -59,6 +61,7 @@ namespace SeleniumTestProject
         [Test]
         public void AddProductInCartAsUser()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.GoToAuthentication();
             Thread.Sleep(1000);
@@ -73,6 +76,7 @@ namespace SeleniumTestProject
         [Test]
         public void AddProductInCartAsAdmin()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.GoToAuthentication();
             Thread.Sleep(1000);
@@ -87,6 +91,7 @@ namespace SeleniumTestProject
         [Test]
         public void SignUpAndLogin()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.GoToSignUp();
             Thread.Sleep(1000);
@@ -101,6 +106,7 @@ namespace SeleniumTestProject
         [Test]
         public void LogInLogOut()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.GoToAuthentication();
             Thread.Sleep(1000);
@@ -115,6 +121,7 @@ namespace SeleniumTestProject
         [Test]
         public void GoTroughtOrizontalMenus()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.LaptopuriMenu();
             homePage.TelefoaneMenu();
@@ -128,6 +135,7 @@ namespace SeleniumTestProject
         [Test]
         public void AsAdminOpenAdministrare()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.GoToAuthentication();
             Thread.Sleep(1000);
@@ -141,6 +149,7 @@ namespace SeleniumTestProject
         [Test]
         public void AsAdminOpenUtilizatori()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             AsAdminOpenAdministrare();
             Thread.Sleep(1000);
@@ -152,6 +161,7 @@ namespace SeleniumTestProject
         [Test]
         public void AsAdminEditUser()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             AsAdminOpenUtilizatori();
             //scrolls down page 8000px
             IJavaScriptExecutor js = (IJavaScriptExecutor)Driver;

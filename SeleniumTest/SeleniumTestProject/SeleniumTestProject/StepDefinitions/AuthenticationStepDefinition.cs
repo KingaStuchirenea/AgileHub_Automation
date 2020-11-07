@@ -32,6 +32,7 @@ namespace SeleniumTestProject.StepDefinitions
         [Given(@"I navigate authentication page")]
         public void GivenINavigateAuthenticationPage()
         {
+            Driver.Navigate().GoToUrl("http://demosite.casqad.org/");
             HomePage homePage = new HomePage(Driver);
             homePage.GoToAuthentication();
         }
