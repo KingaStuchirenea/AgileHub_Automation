@@ -1,0 +1,9 @@
+IdScenariu :001
+NumeScenariu:Numele Scenariului 1
+User: john.miller@bla.com
+Passwird:password1234
+
+IdScenariu :002
+NumeScenariu:Numele Scenariului 2
+User: john.miller@bla.com
+Passwird:password1234

@@ -1,0 +1,13 @@
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\bin\Debug\netcoreapp3.1\LucruCuFisiere.exe
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\bin\Debug\netcoreapp3.1\LucruCuFisiere.deps.json
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\bin\Debug\netcoreapp3.1\LucruCuFisiere.runtimeconfig.json
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\bin\Debug\netcoreapp3.1\LucruCuFisiere.runtimeconfig.dev.json
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\bin\Debug\netcoreapp3.1\LucruCuFisiere.dll
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\bin\Debug\netcoreapp3.1\LucruCuFisiere.pdb
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\obj\Debug\netcoreapp3.1\LucruCuFisiere.csprojAssemblyReference.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\obj\Debug\netcoreapp3.1\LucruCuFisiere.AssemblyInfoInputs.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\obj\Debug\netcoreapp3.1\LucruCuFisiere.AssemblyInfo.cs
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\obj\Debug\netcoreapp3.1\LucruCuFisiere.csproj.CoreCompileInputs.cache
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\obj\Debug\netcoreapp3.1\LucruCuFisiere.dll
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\obj\Debug\netcoreapp3.1\LucruCuFisiere.pdb
+C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\obj\Debug\netcoreapp3.1\LucruCuFisiere.genruntimeconfig.cache
