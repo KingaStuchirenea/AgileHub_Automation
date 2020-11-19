@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MLFsL0mW3jS8M2SQTdjFZs9MEYwJaTh7yFtROOxPhjDrDN7QKWArAxg+s8PHJDn8RXZ0xCV8NMN7PrrYGn6J6Q==",
+  "dgSpecHash": "D0ha9qY/vJrMdb59Zh4m0prudX9spm7ZljIIxexwS4ez0FquH334eZOrrCXOQ76OJ9r4JOzjnzPw+3sjYa4xyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kstuchirenea\\Desktop\\AgileHub\\NewGitHub\\AgileHub_Automation\\ReadFiles\\LucruCuFisiere\\LucruCuFisiere\\LucruCuFisiere.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kstuchirenea\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -90,7 +90,19 @@ namespace LucruCuFisiere
             //Console.ReadKey();
 
             var myValue = ScenarioDto.ReadXML();
-            Console.WriteLine($"Numele Scenariului este: {myValue.TestCaseName}, Numele proprietatii 2 este: {myValue.TestInput}, proprietatea 3 este: {myValue.OtherInfo}");
+            //Console.WriteLine($"Numele Scenariului este: {myValue.TestCaseName}, Numele proprietatii 2 este: {myValue.TestInput}, proprietatea 3 este: {myValue.OtherInfo}");
+
+            //ScenarioDto.JsonSerialize();
+
+            //ScenarioDto.JsonDeserialize();
+
+            var myList = ScenarioDto.LoadValuesFromJsonFile();
+
+            foreach(var elemnt in myList)
+            {
+                Console.WriteLine($" elemtul {myList.IndexOf(elemnt)}: {elemnt.TestCaseName}, {elemnt.TestInput}, {elemnt.OtherInfo}, numaril de valori in campul Values {elemnt.Values.Count}");
+
+            }
 
         }
     }

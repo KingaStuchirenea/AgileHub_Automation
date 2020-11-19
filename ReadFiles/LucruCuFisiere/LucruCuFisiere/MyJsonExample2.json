@@ -1,0 +1,17 @@
+{
+  "ScenarioDto": [
+    {
+      "TestCaseName": "VerifyScenario1",
+      "TestInput": "my first input",
+      "OtherInfo": "Other info",
+      "Values": [ "tes1", "tes2", "tes3" ]
+    },
+    {
+      "TestCaseName": "VerifyScenario2",
+      "TestInput": "my second input",
+      "OtherInfo": "Other info input",
+      "Values": [ "tes4", "tes5", "tes6" ]
+    }
+  ]
+
+}

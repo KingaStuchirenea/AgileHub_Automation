@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace LucruCuFisiere
 {
@@ -9,6 +12,7 @@ namespace LucruCuFisiere
         public string TestCaseName { get; set; }
         public string TestInput { get; set; }
         public string OtherInfo { get; set; }
+        public List<string> Values { get; set; }
 
         public static void WriteXML()
         {
@@ -36,6 +40,56 @@ namespace LucruCuFisiere
             ScenarioDto myScenarioDto = (ScenarioDto)reader.Deserialize(file);
             file.Close();
             return myScenarioDto;
+        }
+
+        public static void JsonSerialize()
+        {
+            ScenarioDto myObject = new ScenarioDto
+            {
+                TestCaseName = "TestCase1",
+                TestInput = "Inputul meu",
+                OtherInfo = "Alte informatii",
+                Values = new List<string> { "value1", "value2", "value3" }
+            };
+
+
+            //string myJson = JsonConvert.SerializeObject(myObject, Formatting.Indented);
+
+            //File.WriteAllText(@"C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\MyJsonExample.json", JsonConvert.SerializeObject(myObject, Formatting.Indented));
+
+            using (StreamWriter file = File.CreateText(@"C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\MyJsonExample2.json"))
+            {
+                JsonSerializer serializator = new JsonSerializer();
+                serializator.Serialize(file, myObject);
+            }
+            Console.WriteLine("Fisierul json a fost creat");
+
+        }
+
+        public static void JsonDeserialize()
+        {
+            string myJson = @"{'TestCaseName': 'TestCase1', 'TestInput': 'Inputul meu', 'OtherInfo': 'Alte informatii'}";
+            ScenarioDto myObject = JsonConvert.DeserializeObject<ScenarioDto>(myJson);
+            Console.WriteLine(myObject.TestCaseName);
+        }
+
+        public static List<ScenarioDto> LoadValuesFromJsonFile()
+        {
+            var myFile = @"C:\Users\kstuchirenea\Desktop\AgileHub\NewGitHub\AgileHub_Automation\ReadFiles\LucruCuFisiere\LucruCuFisiere\MyJsonExample2.json";
+            try {
+                using (var reader = new StreamReader(myFile))
+                {
+                    var json = reader.ReadToEnd();
+                    var config = JObject.Parse(json).SelectToken("ScenarioDto").ToString();
+                    var myTestDataList = JsonConvert.DeserializeObject<List<ScenarioDto>>(config);
+
+                    return myTestDataList;
+                }
+            }
+            catch (Exception)
+            {
+                throw new Exception($"There is a problem with file {myFile}");
+            }
         }
 
     }
